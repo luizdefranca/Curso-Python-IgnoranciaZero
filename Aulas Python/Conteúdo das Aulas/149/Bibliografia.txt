@@ -1,0 +1,5 @@
+http://www.wampserver.com/en/
+https://www.mamp.info/en/
+https://www.digitalocean.com/community/tutorials/como-instalar-a-pilha-linux-apache-mysql-php-lamp-no-ubuntu-14-04-pt
+http://editrocket.com/articles/python_apache_windows.html
+http://www.lfd.uci.edu/~gohlke/pythonlibs

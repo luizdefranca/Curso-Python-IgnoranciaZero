@@ -1,0 +1,1 @@
+Tente ler esse arquivo usando os.system

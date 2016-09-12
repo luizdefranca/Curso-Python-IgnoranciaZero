@@ -1,0 +1,63 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput {
+   width: 200px;
+}
+
+.navbar-brand {
+   padding: 13px 15px;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+div#main {
+   margin-top: 60px;
+   min-height: 700px;
+}
+
+span.glyphicon {
+   padding-right: 5px;
+}
+
+strong.caret {
+   margin-left: 2px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}

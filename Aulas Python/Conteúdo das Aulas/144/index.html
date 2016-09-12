@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Minha pagina Inicial" content="">
+    <meta name="Pedro" content="">
+
+    <title>Minha Pagina</title>
+
+    <!-- Carrega os sheets necessários para a página -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/starter-template.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Insere a barra de navegação na parte superior do Site -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Ignorância Zero</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="/cgi-bin/fetch_page.py?page=sobre">Sobre</a></li>
+            <li><a href="/cgi-bin/fetch_page.py?page=contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <!-- Insere o painel de entradas do usuário -->
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Insira suas informações nos campos abaixo</h3>
+            </div>
+
+            <div class="panel-body">
+
+              <form method=POST action="cgi-bin/recebe.py?time=palmeirense&cidade=SP">
+
+                <!-- Insere o painel para colocar o nome --> 
+                <div class="container">
+                  <span class="label label-default">Nome</span>
+                  <p><input type="text" name=nome placeholder="Digite se Nome..." required></p>
+                </div>
+
+                <!-- Insere o painel para colocar a idade -->
+                <div class="container">
+                  <span class="label label-default">Idade</span>
+                  <p><input type="text" name=idade placeholder="Digite sua Idade..." required></p>
+                </div>
+
+                <!-- Insere o painel para colocar o tamanho de sapato -->
+                <div class="container">
+                  <p><span class="label label-default">Tamanho de Sapato</span></p>
+                
+                  <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default">
+                      <input type="radio" name=tamanho value="pequenos" /> Pequeno
+                    </label> 
+                
+                    <label class="btn btn-default">
+                      <input type="radio" name=tamanho value="médios" /> Médio
+                    </label> 
+                
+                    <label class="btn btn-default">
+                      <input type="radio" name=tamanho value="grandes" /> Grande
+                    </label>
+                  </div>
+                </div>
+
+                <br>
+                <!-- Insere opções de afiliação política -->
+                <div class="container">
+                  <p><span class="label label-default">Afiliação Política</span></p>
+                
+                  <div class="btn-group" data-check="buttons">
+                    <label class="btn btn-default">
+                      <input type="checkbox" name=politica value="pythonico" /> Pythonico
+                    </label> 
+                
+                    <label class="btn btn-default">
+                      <input type="checkbox" name=politica value="c#piano" /> C#piano
+                    </label> 
+                
+                    <label class="btn btn-default">
+                      <input type="checkbox" name=politica value="retardojava" /> Retardojava
+                    </label>
+                  </div>
+                </div>
+                
+                <!-- Mantem um formulário escondido com os dados do cabelo -->
+                <input type=hidden name=cabelo value="castanho">
+
+                <!-- Insere o painel para colocar comentários -->
+                <br>
+                <div class="container">
+                  <span class="label label-default">Comentários</span>
+                  <p><textarea rows="3" cols="40" name=comentario placeholder="Deixe seu Comentário"></textarea></p>
+                </div>
+              
+                <!-- Coloca o botão de entrar -->
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-4">
+                    <button type="submit" class="btn btn-lg btn-default">Entrar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Inserido aqui para carregar as páginas de maneira mais rápida -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

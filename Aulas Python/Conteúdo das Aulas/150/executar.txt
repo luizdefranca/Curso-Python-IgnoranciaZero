@@ -1,0 +1,35 @@
+CREATE DATABASE `iz` COLLATE latin1_general_cs;
+USE `iz`;
+CREATE TABLE `nivel` ( 
+nivel_id INT(6) NOT NULL AUTO_INCREMENT,
+nivel_nome VARCHAR(30) NOT NULL COLLATE latin1_general_cs,
+UNIQUE(`nivel_nome`),
+PRIMARY KEY (`nivel_id`)
+);
+CREATE TABLE `usuario` ( 
+usuario_id INT(11) NOT NULL AUTO_INCREMENT,
+usuario_login VARCHAR(30) COLLATE latin1_general_cs,
+usuario_senha VARCHAR(100) COLLATE latin1_general_cs,
+usuario_nome VARCHAR(100) COLLATE latin1_general_cs,
+usuario_email VARCHAR(100) COLLATE latin1_general_cs,
+usuario_nivel INT(6) NOT NULL,
+UNIQUE(`usuario_login`),
+UNIQUE(`usuario_email`),
+INDEX(`usuario_nivel`),
+PRIMARY KEY (`usuario_id`),
+INDEX(`usuario_nivel`),
+CONSTRAINT FK_USUARIO_NIVEL FOREIGN KEY (`usuario_nivel`) REFERENCES nivel(`nivel_id`)
+);
+INSERT INTO `nivel` (`nivel_nome`) VALUES ("admin");
+INSERT INTO `nivel` (`nivel_nome`) VALUES ("cliente");
+INSERT INTO `usuario` (`usuario_login`, `usuario_senha`, `usuario_nome`, `usuario_email`, `usuario_nivel`) VALUES ("admin", "admin", "admin", "meuemail@email.com", 1);
+CREATE TABLE `log` ( 
+log_id INT(11) NOT NULL AUTO_INCREMENT,
+log_data VARCHAR(30) NOT NULL COLLATE latin1_general_cs,
+log_evento VARCHAR(30) NOT NULL COLLATE latin1_general_cs,
+log_usuario VARCHAR(30) NOT NULL COLLATE latin1_general_cs,
+log_ip VARCHAR(20) NOT NULL,
+PRIMARY KEY (`log_id`),
+CONSTRAINT FK_LOG_USUARIO FOREIGN KEY (`log_usuario`) REFERENCES usuario(`usuario_login`),
+INDEX(`log_usuario`)
+);

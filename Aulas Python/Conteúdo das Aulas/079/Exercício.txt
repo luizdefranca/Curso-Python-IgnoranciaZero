@@ -1,0 +1,7 @@
+Crie agora um método save dentro da classe luta
+para que seja possivel salvar o jogo durante
+um combate
+
+VocÃª vai ter de utilizar o modulo shelve
+--> player
+--> inimigos

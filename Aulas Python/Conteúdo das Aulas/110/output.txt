@@ -1,0 +1,4 @@
+Ola stream Mundo! --> Termine pressionando ctrl+D
+Entre um número>8 ao quadrado é 64
+Entre um número>6 ao quadrado é 36
+Entre um número>Tchau

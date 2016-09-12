@@ -1,0 +1,6 @@
+Escreva um estrutura cliente servidor que permita
+ao cliente pedir determinados arquivos ao servidor
+e baixa-los. Faça de forma que cada cliente que se
+conectar ao servidor se conecte em um thread diferente.
+Execute o código contido nesta página para ver o exemplo
+de funcionamento

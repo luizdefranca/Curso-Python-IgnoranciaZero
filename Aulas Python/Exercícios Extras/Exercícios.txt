@@ -1,0 +1,188 @@
+000 - Introdução ao curso
+Nada
+
+001 - O que é programar? O que é python?
+Nada
+
+002 - Instalando o IDLE, Ola mundo!
+Nada
+
+003 - A função print
+Nada
+
+004 - Comentários
+Nada
+
+005 - Variáveis, inteiros
+Nada
+
+006 - Operações matemáticas
+Nada
+
+007 - As funções input e int
+Python Brasil:
+	1 - Estrutura Sequencial:
+		Ex 2
+		Ex 7
+		Ex 14
+
+008 - A variavel booleana, operadores de comparação
+Nada
+
+009 - Estrutura de Decisões I: if e else
+Python Brasil:
+	2 - Estrutura de Decisão:
+		Ex 6
+		Ex 8
+		Ex 17
+		Ex 22
+		Ex 23
+
+010 - Comparações múltiplas
+Nada
+
+011 - Estrutura de Decisões II: if, elif e else 
+Python Brasil:
+	2 - Estrutura de Decisão:
+		Ex 6
+		Ex 8
+		Ex 22
+IME USP:
+	1 - Exercícios com Inteiros
+		1.19
+
+012 - Múltiplos if vs if, elif e else
+Nada
+
+013 - Estruturas de Repetição I: while
+Python Brasil:
+	3 - Estrutura de Repetição
+		Ex 9 a 11
+		Ex 15 a 17
+		Ex 21
+		Ex 34
+		Ex 42
+		Ex 48
+		
+IME USP:
+	1 - Exercícios com Inteiros
+		1.5, 1.6, 1.9, 1.11
+
+014 - Estruturas de Repetição II: Nested while loops
+Python Brasil:
+	3 - Estrutura de Repetição
+		Ex 20
+		Ex 22
+
+015 - Dois Atalhos do Python
+Python Brasil:
+	3 - Estrutura de Repetição
+		Ex 7
+		Ex 12
+		Ex 14
+		Ex 18
+		Ex 19
+
+016 - Aula de Exercícios
+IME USP:
+	1 - Exercícios com Inteiros
+		Todos exceto 1.6, 1.9, 1.16, 1.17, 1.18
+
+017 - Estruturas de Repetição III for e Range
+Python Brasil:
+	3 - Estrutura de Repetição
+		Ex 26
+
+018 - Estruturas de Repetição IV, Repetições Encaixadas
+IME USP:
+	2 - Exercícios com Repetições Encaixadas
+		2.1, 2.4, 2.5, 2.6 e 2.7
+
+019 - Operadores Lógicos
+IME USP:
+	1 - Exercícios com Inteiros
+		1.6, 1.9 e 1.18
+	2 - Exercícios com Repetições Encaixadas
+		2.2 e 2.3
+
+Python Brasil:
+	2 - Estrutura de Decisão:
+		Ex 17, 18
+
+020 - Números Reais, a variável do tipo float
+Python Brasil:
+	1 - Estrutura Sequencial:
+		Ex 5, 6
+		Ex 9, 10
+		Ex 12
+		Ex 18
+	2 - Estrutura de Decisão:
+		Ex 5
+		Ex 27
+	3 - Estrutura de Repetição
+		Ex 1
+		Ex 4
+		Ex 24, 25
+		Ex 28
+		Ex 49 a 52
+IME USP:
+	3 - Exercícios com Reais
+		3.3 a 3.5
+		3.7, 3.8
+		3.12
+
+021 - Operações com float e inteiros
+Python Brasil:
+	1 - Estrutura Sequencial:
+		Ex 15
+	2 - Estrutura de Decisão:
+		Ex 23
+	3 - Estrutura de Repetição
+		Ex 38
+		Ex 43, 44
+IME USP:
+	3 - Exercícios com Reais
+		3.1, 3.2
+		3.10
+
+022 - A função print, formatação
+Python Brasil:
+	2 - Estrutura de Decisão:
+		Ex 11
+	3 - Estrutura de Repetição
+		Ex 27
+		Ex 29 a 31
+		Ex 37
+		Ex 40
+
+023 - Utilizando Modulos, Import, Modulo math
+Nada
+
+024 - Números aleatórios, modulo random
+Nada
+
+025 - Introdução a lista
+Nada
+
+026 - 
+Python Brasil:
+	4 - Exercícios com Listas:
+		Ex 6, 7
+		Ex 9 a 11
+		Ex 13
+		Ex 18
+IME USP:
+	Cap 6 e 7
+	OBS: A apostila foi feita para a linguagem C, logo não existem métodos como em python,
+	     desta forma, só com os conhecimentos que possuímos até essa aula é possível resolver
+	     todos esses exercícios, entretanto, a partir das aulas seguintes, ve-se que em python
+	     é possível encontrar soluções muito mais simples.
+
+027 - Código Binário e Alocação de Memória
+IME USP:
+	1 - Exercícios com Inteiros
+		1.16
+		1.17
+
+028 - 
+

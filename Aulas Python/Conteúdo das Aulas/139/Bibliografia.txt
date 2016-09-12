@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=QVyAeM12wVY
+https://www.youtube.com/watch?v=5fiAaNVwGuA
+https://docs.python.org/3/library/ftplib.html
+http://www.pythonforbeginners.com/code-snippets-source-code/how-to-use-ftp-in-python
+http://postneo.com/stories/2003/01/01/beyondTheBasicPythonFtplibExample.html
+http://effbot.org/librarybook/ftplib.htm
+
